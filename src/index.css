@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: azure;
+}
+.heading{
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: cornsilk;
+}
+.cards{
+    width: auto;
+    height: auto;
+    
+}
+.card{
+    margin: 30px 90px; 
+    padding:50px 15px ;
+    width: 20%;
+    float: left;
+}
+.card:hover{
+    box-shadow: 0px 30px 18px 0px rgba(0, 0,0,0.1);
+    transform: scale(1.1,1.1);
+    transition: all 0.1 zoom-in-out;
+
+}
+.image{
+    width: 275px;
+    height: 200px;
+}
+.card_info{
+    margin: 10px;
+   text-align: center;
+  }
+button{
+    margin: 10px;
+     border-radius: 5px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+    padding:2px 6px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: aqua;
+}
